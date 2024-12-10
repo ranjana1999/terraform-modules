@@ -10,3 +10,7 @@ variable "subnet_region"{
 variable "vpc_self_link"{
     type=string
 }
+variable "secondary_ip_range"{
+    type = map(string)
+    default = {}
+}
